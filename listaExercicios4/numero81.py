@@ -12,3 +12,21 @@ D) Algoritmo em python.
 E) Apresentação da atividade (Em slides)
 F) Ao finalizar a atividade coloque na pasta compartilhada no Microsoft Teams (crie uma pasta com a descrição
 “AtivAva1DevAlg”dentro de ambas as pastas dos membros da dupla).'''
+
+nomeBebe = input("Qual o nome da criança? ")
+dnBebe = input("Qual a dada de nascimento da criança? ")
+pesoNasci = float(input("Qual o peso em KG que a criança nasceu? "))
+altura = float(input("Qual a altura em metros da criança "))
+nomeMae = input("Qual o nome da mãe? ")
+nomeMedico = input("Qual o nome do medico que realizou o parto? ")
+
+endereço = input("Qual o endereço da mãe? ")
+telefoneMae = int(input("Qual numero de telefone da mãe"))
+dnMae = input("Qual a data de nascimento da mãe? ")
+ 
+
+crm = int(input("Qual o CRM do medico? "))
+telefoneMedico = int(input("Qual o telefone do medico que realizou o parto? "))
+especializacao= input("Qual o especialização do medico que fez o parto? ")
+
+print("Dados registrados com sucesso!")
